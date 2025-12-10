@@ -17,9 +17,10 @@ public class Employee {
 
 	public static void main(String args[]) {
 		Employee emp = new Employee(); 
+		 emp.getId();
+		 emp.getName();
 		emp.getSalary();
-	   emp.getName();
-       emp.getId();
 		
 	}
 }
+
